@@ -37,10 +37,157 @@
              <img class="delivery" src="./images/delivery.webp" alt="">
            </div>
       </section>
+
+
+      <section>
+          <h1 style="text-align: center; font-size: 35px;margin-top: 20px; ">Our Menu</h1>
+
+          <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px; margin-bottom: 200px;">
+              <div>
+               <img  src="./images/burger1.jpg" alt="">
+               <div style="margin-left: 45px; font-size: 20px; font-weight: bold;">
+                 <p>Lamb Burger</p>
+                 <p>Rating 5 ☆</p>
+                 <p>Price : 6$</p>
+                 <button style="margin-top: 10px;" class="order">Order Now</button>
+               </div>
+              </div>
+              <div>
+               <img  src="./images/burger2.jpg" alt="">
+               <div style="margin-left: 45px; font-size: 20px; font-weight: bold;">
+                 <p>Beef Burger</p>
+                 <p>Rating 5 ☆</p>
+                 <p>Price : 10$</p>
+                 <button style="margin-top: 10px;" class="order">Order Now</button>
+               </div>
+              </div>
+              <div>
+               <img   src="./images/burger3.jpg" alt="">
+               <div style="margin-left: 45px; font-size: 20px; font-weight: bold;">
+                 <p>Classic Burger</p>
+                 <p>Rating 5 ☆</p>
+                 <p>Price : 10$</p>
+                 <button style="margin-top: 10px;" class="order">Order Now</button>
+               </div>
+              </div>
+          </div>
+          <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 20px; margin-bottom: 200px;">
+              <div>
+               <img style="width: 300px; height: 200px;" src="./images/pizza1.jpg" alt="">
+               <div style="margin-left: 45px; font-size: 20px; font-weight: bold; padding: 10px;">
+                 <p>Margherita Pizza</p>
+                 <p>Rating 5 ☆</p>
+                 <p>Price : 16$</p>
+                 <button style="margin-top:10px ;" class="order">Order Now</button>
+               </div>
+              </div>
+              <div>
+               <img style="height: 200px; width: 300px;"  src="./images/pizza2.jpg" alt="">
+               <div style="margin-left: 45px; font-size: 20px; font-weight: bold; padding: 10px; ">
+                 <p>Hawaiian Pizza. ...
+               </p>
+                 <p>Rating 5 ☆</p>
+                 <p>Price : 10$</p>
+                 <button style="margin-top: 10px;" class="order">Order Now</button>
+               </div>
+              </div>
+              <div>
+               <img  style="width: 300px; height: 200px;"  src="./images/pizza3.jpg" alt="">
+               <div style="margin-left: 45px; font-size: 20px; font-weight: bold; padding: 10px;">
+                 <p>Chicago Deep-Dish Pizza</p>
+                 <p>Rating 5 ☆</p>
+                 <p>Price : 10$</p>
+                 <button style="margin-top: 10px;" class="order">Order Now</button>
+               </div>
+              </div>
+          </div>
+
+
+      </section>
+      
+
+
+      <!-- contact section -->
+
+      <section class="contact" id="contact">
+         <h2>Contact Us</h2>
+         <p  style="text-align: center; margin-bottom: 20px;">If you have any questions or would like to place an order, feel free to reach out!</p>
+         <form action="submit_form.php" method="POST" class="contact-form">
+             <label for="name">Name:</label>
+             <input type="text" id="name" name="name" required>
+     
+             <label for="email">Email:</label>
+             <input type="email" id="email" name="email" required>
+     
+             <label for="message">Message:</label>
+             <textarea id="message" name="message" rows="5" required></textarea>
+     
+             <button type="submit" class="submit">Send Message</button>
+         </form>
+         <div class="contact-info">
+             <h3>Our Location</h3>
+             <p>Chittagong</p>
+             <h3>Phone</h3>
+             <p>01891526868</p>
+             <h3>Email</h3>
+             <p>iftekharmahmud98@gmail.com</p>
+         </div>
+     </section>
+
+     <!-- testimonial section -->
+     
+     <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-container">
+          <div class="testimonial">
+              <p>"The best pizza I’ve ever had! The crust was perfectly crispy, and the toppings were fresh. Highly recommend!"</p>
+              <h4>- Cristiano Ronaldo.</h4>
+          </div>
+          <div class="testimonial">
+              <p>"Great service and even better food! We order from Bite & Slice every week!"</p>
+              <h4>- Shah Rukh Khan.</h4>
+          </div>
+          <div class="testimonial">
+              <p>"I love their vegan options! Delicious and satisfying." </p>
+              <h4>- Madhuri Dixit .</h4>
+          </div>
+      </div>
+  </section>
+  
    </main>
 
    <footer>
-
-   </footer>
+      <div class="footer-container">
+          <div class="footer-info">
+              <h3>Bite & Slice</h3>
+              <p>Your favorite place for delicious pizza!</p>
+              <p>&copy; 2024 Bite & Slice. All rights reserved.</p>
+          </div>
+          <div class="footer-links">
+              <h3>Quick Links</h3>
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#menu">Menu</a></li>
+                  <li><a href="#offer">Offers</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </div>
+          <div class="footer-contact">
+              <h3>Contact Us</h3>
+              <p>Email: <a  style="color: white;"  href="mailto:iftekharmahmud98@gmail.com">iftekharmahmud98@gmail.com</a></p>
+              <p>Phone: <a style="color: white;" href="tel:+1234567890">01891526868</a></p>
+              <p>Address: 123 Pizza Street, Flavor Town, FT 45678</p>
+          </div>
+          <div class="footer-social">
+              <h3>Follow Us</h3>
+              <ul>
+                  <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                  <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                  <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  
 </body>
 </html>
